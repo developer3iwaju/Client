@@ -8,7 +8,6 @@ const WebSocket = require("ws");
 let mainWindow;
 let ws;
 let nomPc;
-//let peerConnection;
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1000,
